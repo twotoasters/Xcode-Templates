@@ -1,4 +1,4 @@
 #!/bin/sh
-rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/Frameworks/three20/
+rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/Libraries/three20/
 cp -r Project\ Templates ~/Library/Application\ Support/Developer/Shared/Xcode/
 cp -r File\ Templates ~/Library/Application\ Support/Developer/Shared/Xcode/
