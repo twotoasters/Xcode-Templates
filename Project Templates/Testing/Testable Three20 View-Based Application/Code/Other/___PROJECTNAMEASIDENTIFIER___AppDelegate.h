@@ -1,5 +1,5 @@
 //
-//  ___PROJECTNAMEASIDENTIFIER___ViewController.h
+//  ___PROJECTNAMEASIDENTIFIER___AppDelegate.h
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ___PROJECTNAMEASIDENTIFIER___ViewController : UIViewController {
+@interface ___PROJECTNAMEASIDENTIFIER___AppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
