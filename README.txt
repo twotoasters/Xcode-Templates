@@ -1,4 +1,4 @@
-rm -rf three20 from the checkout, copy to "~/Library/Application Support/Developer/Shared" to make these templates available
+run ./install
 
 When using the project template:
 in the new project directory, run:
