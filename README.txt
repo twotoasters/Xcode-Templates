@@ -1,3 +1,11 @@
-Copy this "Xcode" folder to "/Library/Application Support/Developer/Shared" to make these templates available for all Xcode users on the system.
+rm -rf three20 from the checkout, copy to "~/Library/Application Support/Developer/Shared" to make these templates available
 
-See http://developer.apple.com/releasenotes/developertools/RN-Xcode/index.html for more details.
+When using the project template:
+in the new project directory, run:
+`git init`
+`git submodule init`
+`git submodule add git://github.com/joehewitt/three20.git Frameworks/three20`
+
+remove and re-add the Three20 dependency on the Application Target (in Xcode)
+
+
