@@ -190,7 +190,6 @@
 		3FFC89111055E3460022C4F9 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EA1055E3460022C4F9 /* NSObject+ClassName.m */; };
 		3FFC89121055E3460022C4F9 /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EC1055E3460022C4F9 /* ScriptRunner.m */; };
 		3FFC89131055E3460022C4F9 /* TestScript.sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC88ED1055E3460022C4F9 /* TestScript.sample.plist */; };
-		3FFC89141055E3460022C4F9 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EF1055E3460022C4F9 /* TouchSynthesis.m */; };
 		3FFC89151055E3460022C4F9 /* UIApplication+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F11055E3460022C4F9 /* UIApplication+XMLDescription.m */; };
 		3FFC89161055E3460022C4F9 /* UIView+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F31055E3460022C4F9 /* UIView+XMLDescription.m */; };
 		3FFC89171055E3460022C4F9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F61055E3460022C4F9 /* XPathQuery.m */; };
@@ -208,6 +207,7 @@
 		3FFC89E51055E7C60022C4F9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E41055E7C60022C4F9 /* libicucore.dylib */; };
 		3FFC89E71055E7CA0022C4F9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E61055E7CA0022C4F9 /* libz.dylib */; };
 		3FFC89E91055E7CC0022C4F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E81055E7CC0022C4F9 /* SystemConfiguration.framework */; };
+		3FFC8A2E1055F7E80022C4F9 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EF1055E3460022C4F9 /* TouchSynthesis.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1355,7 +1355,6 @@
 				3FFC88B11055E3190022C4F9 /* UIWebViewAdditions.m in Sources */,
 				3FFC89111055E3460022C4F9 /* NSObject+ClassName.m in Sources */,
 				3FFC89121055E3460022C4F9 /* ScriptRunner.m in Sources */,
-				3FFC89141055E3460022C4F9 /* TouchSynthesis.m in Sources */,
 				3FFC89151055E3460022C4F9 /* UIApplication+XMLDescription.m in Sources */,
 				3FFC89161055E3460022C4F9 /* UIView+XMLDescription.m in Sources */,
 				3FFC89171055E3460022C4F9 /* XPathQuery.m in Sources */,
@@ -1368,6 +1367,7 @@
 				3FFC89D91055E7470022C4F9 /* HTTPResponse.m in Sources */,
 				3FFC89DA1055E7470022C4F9 /* HTTPServer.m in Sources */,
 				3FFC89DD1055E75E0022C4F9 /* MyHTTPConnection.m in Sources */,
+				3FFC8A2E1055F7E80022C4F9 /* TouchSynthesis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

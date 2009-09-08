@@ -66,4 +66,12 @@
 	return YES;
 }
 
+/*
+ * For UI Driven Testing
+ */
+
+- (void)terminateApp:sender {
+	exit(0);
+}
+
 @end
