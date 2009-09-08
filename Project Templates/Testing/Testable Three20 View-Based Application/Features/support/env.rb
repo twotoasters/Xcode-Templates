@@ -5,7 +5,7 @@ require 'fileutils'
 require 'chronic'
 require 'spec/expectations'
 
-module ProjectNameHelper
+module ___PROJECTNAMEASIDENTIFIER___Helper
   def app
     @app ||= ProjectName.new 'localhost'
   end
@@ -32,7 +32,7 @@ module ProjectNameHelper
   # end
 end
 
-World(ProjectNameHelper)
+World(___PROJECTNAMEASIDENTIFIER___Helper)
 
 Before do
   app.reset
