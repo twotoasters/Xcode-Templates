@@ -12,4 +12,8 @@ To get up and running, do the following:
 
 `git submodule add git@github.com:twotoasters/brominet.git Libraries/brominet`
 
+`git add .`
+
+`git commit -am "initial commit"`
+
 Then remove and re-add the Three20 dependency on the Application Target and Brominet Target(in Xcode)
