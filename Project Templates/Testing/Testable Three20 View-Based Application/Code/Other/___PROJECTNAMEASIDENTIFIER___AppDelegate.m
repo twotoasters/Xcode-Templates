@@ -70,8 +70,12 @@
  * For UI Driven Testing
  */
 
+#ifdef BROMINET_ENABLED
+
 - (void)terminateApp:sender {
 	exit(0);
 }
+
+#endif
 
 @end
