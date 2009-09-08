@@ -2,7 +2,7 @@ require 'encumber'
 require 'rexml/document'
 require 'time'
 
-class ProjectName
+class ___PROJECTNAMEASIDENTIFIER___
   class ExpectationFailed < RuntimeError
   end
   

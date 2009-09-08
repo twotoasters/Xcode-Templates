@@ -1,6 +1,6 @@
 $: << File.join(File.dirname(__FILE__), '/../../lib')
 
-require 'project_name'
+require '___PROJECTNAMEASIDENTIFIER___'
 require 'fileutils'
 require 'chronic'
 require 'spec/expectations'
