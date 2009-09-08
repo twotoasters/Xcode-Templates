@@ -43,10 +43,10 @@ class ___PROJECTNAMEASIDENTIFIER___
     yield if block_given?
 
     system(<<-HERE)
-      osascript -e 'tell application "Xcode"'\\
-        -e 'set ___PROJECTNAME___ to active project document'\\
-        -e 'launch the active executable of ___PROJECTNAME___'\\
-      -e 'end tell' >/dev/null
+      osascript -e 'tell application "Xcode"' \
+      	   -e 'set ___PROJECTNAME___ to active project document' \
+              -e 'launch the executable named "Brominet" of ___PROJECTNAME___' \
+            -e 'end tell' >/dev/null
     HERE
 
     sleep 7
