@@ -108,14 +108,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FC0CFB210559ECE00BF2243 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		3FC0D18710559FE600BF2243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FC0CFB210559ECE00BF2243 /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 /* End PBXContainerItemProxy section */
@@ -923,6 +923,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Libraries/three20/src/build/Debug-iphonesimulator\"",
 				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "___PROJECTNAME___";
 			};
 			name = Debug;
@@ -945,6 +949,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Libraries/three20/src/build/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "___PROJECTNAME___";
 			};

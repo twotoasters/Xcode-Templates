@@ -7,7 +7,6 @@
 //
 
 #import "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"
-#import "Three20.h"
 
 @implementation ___PROJECTNAMEASIDENTIFIER___AppDelegate
 
@@ -26,6 +25,11 @@
 		// Put your root controller url here
 		[navigator openURL:@"http://www.google.com" animated:NO];
 	}
+}
+
+- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
+	[[TTNavigator navigator] openURL:URL.absoluteString animated:NO];
+	return YES;
 }
 
 

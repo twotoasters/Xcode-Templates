@@ -6,7 +6,7 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Three20/Three20.h>
 
 @interface ___PROJECTNAMEASIDENTIFIER___AppDelegate : NSObject <UIApplicationDelegate> {
 
