@@ -432,6 +432,9 @@
 		3FC0D1931055A00B00BF2243 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FC0D1A51055A0A800BF2243 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3FC0D1AB1055A0B700BF2243 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FF8562B1056D60100441368 /* test_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_steps.rb; sourceTree = "<group>"; };
+		3FF8562D1056D60100441368 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		3FF8562E1056D60100441368 /* test.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.feature; sourceTree = "<group>"; };
 		3FFC88BA1055E3190022C4F9 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFC88BC1055E3190022C4F9 /* Brominet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brominet-Info.plist"; sourceTree = "<group>"; };
 		3FFC88E91055E3460022C4F9 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
@@ -516,6 +519,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				3FF856291056D60100441368 /* Features */,
 				3FC0D16E10559F7F00BF2243 /* Resources */,
 				3FC0D13610559EEB00BF2243 /* Tests */,
 				3FC0CE5B10559E8E00BF2243 /* Code */,
@@ -856,6 +860,32 @@
 			children = (
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		3FF856291056D60100441368 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8562A1056D60100441368 /* step_definitions */,
+				3FF8562C1056D60100441368 /* support */,
+				3FF8562E1056D60100441368 /* test.feature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3FF8562A1056D60100441368 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8562B1056D60100441368 /* test_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		3FF8562C1056D60100441368 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8562D1056D60100441368 /* env.rb */,
+			);
+			path = support;
 			sourceTree = "<group>";
 		};
 		3FFC88BD1055E3460022C4F9 /* brominet */ = {
