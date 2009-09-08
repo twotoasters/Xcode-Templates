@@ -101,6 +101,113 @@
 		3FC0D1941055A00B00BF2243 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1931055A00B00BF2243 /* UIKit.framework */; };
 		3FC0D1A61055A0A800BF2243 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1A51055A0A800BF2243 /* CoreGraphics.framework */; };
 		3FC0D1AC1055A0B700BF2243 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1AB1055A0B700BF2243 /* QuartzCore.framework */; };
+		3FFC885F1055E3190022C4F9 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB110559ECE00BF2243 /* Three20.bundle */; };
+		3FFC88611055E3190022C4F9 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CE6110559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
+		3FFC88621055E3190022C4F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CE6310559E8E00BF2243 /* main.m */; };
+		3FFC88631055E3190022C4F9 /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1910559ECE00BF2243 /* NSArrayAdditions.m */; };
+		3FFC88641055E3190022C4F9 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1A10559ECE00BF2243 /* NSDateAdditions.m */; };
+		3FFC88651055E3190022C4F9 /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1B10559ECE00BF2243 /* NSObjectAdditions.m */; };
+		3FFC88661055E3190022C4F9 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1C10559ECE00BF2243 /* NSStringAdditions.m */; };
+		3FFC88671055E3190022C4F9 /* TTActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1D10559ECE00BF2243 /* TTActionSheetController.m */; };
+		3FFC88681055E3190022C4F9 /* TTActivityLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1E10559ECE00BF2243 /* TTActivityLabel.m */; };
+		3FFC88691055E3190022C4F9 /* TTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF1F10559ECE00BF2243 /* TTAlertViewController.m */; };
+		3FFC886A1055E3190022C4F9 /* TTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2010559ECE00BF2243 /* TTButton.m */; };
+		3FFC886B1055E3190022C4F9 /* TTButtonBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2110559ECE00BF2243 /* TTButtonBar.m */; };
+		3FFC886C1055E3190022C4F9 /* TTDefaultStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2210559ECE00BF2243 /* TTDefaultStyleSheet.m */; };
+		3FFC886D1055E3190022C4F9 /* TTErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2310559ECE00BF2243 /* TTErrorView.m */; };
+		3FFC886E1055E3190022C4F9 /* TTGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2410559ECE00BF2243 /* TTGlobal.m */; };
+		3FFC886F1055E3190022C4F9 /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2510559ECE00BF2243 /* TTImageView.m */; };
+		3FFC88701055E3190022C4F9 /* TTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2610559ECE00BF2243 /* TTLabel.m */; };
+		3FFC88711055E3190022C4F9 /* TTLauncherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2710559ECE00BF2243 /* TTLauncherButton.m */; };
+		3FFC88721055E3190022C4F9 /* TTLauncherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2810559ECE00BF2243 /* TTLauncherItem.m */; };
+		3FFC88731055E3190022C4F9 /* TTLauncherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2910559ECE00BF2243 /* TTLauncherView.m */; };
+		3FFC88741055E3190022C4F9 /* TTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2A10559ECE00BF2243 /* TTLayout.m */; };
+		3FFC88751055E3190022C4F9 /* TTLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2B10559ECE00BF2243 /* TTLink.m */; };
+		3FFC88761055E3190022C4F9 /* TTListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2C10559ECE00BF2243 /* TTListDataSource.m */; };
+		3FFC88771055E3190022C4F9 /* TTMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2D10559ECE00BF2243 /* TTMessageController.m */; };
+		3FFC88781055E3190022C4F9 /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2E10559ECE00BF2243 /* TTModel.m */; };
+		3FFC88791055E3190022C4F9 /* TTModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF2F10559ECE00BF2243 /* TTModelViewController.m */; };
+		3FFC887A1055E3190022C4F9 /* TTNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3010559ECE00BF2243 /* TTNavigator.m */; };
+		3FFC887B1055E3190022C4F9 /* TTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3110559ECE00BF2243 /* TTPageControl.m */; };
+		3FFC887C1055E3190022C4F9 /* TTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3210559ECE00BF2243 /* TTPhotoView.m */; };
+		3FFC887D1055E3190022C4F9 /* TTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3310559ECE00BF2243 /* TTPhotoViewController.m */; };
+		3FFC887E1055E3190022C4F9 /* TTPickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3410559ECE00BF2243 /* TTPickerTextField.m */; };
+		3FFC887F1055E3190022C4F9 /* TTPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3510559ECE00BF2243 /* TTPickerViewCell.m */; };
+		3FFC88801055E3190022C4F9 /* TTPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3610559ECE00BF2243 /* TTPopupViewController.m */; };
+		3FFC88811055E3190022C4F9 /* TTPostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3710559ECE00BF2243 /* TTPostController.m */; };
+		3FFC88821055E3190022C4F9 /* TTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3810559ECE00BF2243 /* TTScrollView.m */; };
+		3FFC88831055E3190022C4F9 /* TTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3910559ECE00BF2243 /* TTSearchBar.m */; };
+		3FFC88841055E3190022C4F9 /* TTSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3A10559ECE00BF2243 /* TTSearchDisplayController.m */; };
+		3FFC88851055E3190022C4F9 /* TTSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3B10559ECE00BF2243 /* TTSearchTextField.m */; };
+		3FFC88861055E3190022C4F9 /* TTSearchlightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3C10559ECE00BF2243 /* TTSearchlightLabel.m */; };
+		3FFC88871055E3190022C4F9 /* TTShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3D10559ECE00BF2243 /* TTShape.m */; };
+		3FFC88881055E3190022C4F9 /* TTStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3E10559ECE00BF2243 /* TTStyle.m */; };
+		3FFC88891055E3190022C4F9 /* TTStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF3F10559ECE00BF2243 /* TTStyleSheet.m */; };
+		3FFC888A1055E3190022C4F9 /* TTStyledFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4010559ECE00BF2243 /* TTStyledFrame.m */; };
+		3FFC888B1055E3190022C4F9 /* TTStyledLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4110559ECE00BF2243 /* TTStyledLayout.m */; };
+		3FFC888C1055E3190022C4F9 /* TTStyledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4210559ECE00BF2243 /* TTStyledNode.m */; };
+		3FFC888D1055E3190022C4F9 /* TTStyledText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4310559ECE00BF2243 /* TTStyledText.m */; };
+		3FFC888E1055E3190022C4F9 /* TTStyledTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4410559ECE00BF2243 /* TTStyledTextLabel.m */; };
+		3FFC888F1055E3190022C4F9 /* TTStyledTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4510559ECE00BF2243 /* TTStyledTextParser.m */; };
+		3FFC88901055E3190022C4F9 /* TTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4610559ECE00BF2243 /* TTTabBar.m */; };
+		3FFC88911055E3190022C4F9 /* TTTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4710559ECE00BF2243 /* TTTableHeaderView.m */; };
+		3FFC88921055E3190022C4F9 /* TTTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4810559ECE00BF2243 /* TTTableItem.m */; };
+		3FFC88931055E3190022C4F9 /* TTTableItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4910559ECE00BF2243 /* TTTableItemCell.m */; };
+		3FFC88941055E3190022C4F9 /* TTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4A10559ECE00BF2243 /* TTTableView.m */; };
+		3FFC88951055E3190022C4F9 /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4B10559ECE00BF2243 /* TTTableViewCell.m */; };
+		3FFC88961055E3190022C4F9 /* TTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4C10559ECE00BF2243 /* TTTableViewController.m */; };
+		3FFC88971055E3190022C4F9 /* TTTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4D10559ECE00BF2243 /* TTTableViewDataSource.m */; };
+		3FFC88981055E3190022C4F9 /* TTTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4E10559ECE00BF2243 /* TTTableViewDelegate.m */; };
+		3FFC88991055E3190022C4F9 /* TTTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF4F10559ECE00BF2243 /* TTTextEditor.m */; };
+		3FFC889A1055E3190022C4F9 /* TTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5010559ECE00BF2243 /* TTThumbView.m */; };
+		3FFC889B1055E3190022C4F9 /* TTThumbsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5110559ECE00BF2243 /* TTThumbsTableViewCell.m */; };
+		3FFC889C1055E3190022C4F9 /* TTThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5210559ECE00BF2243 /* TTThumbsViewController.m */; };
+		3FFC889D1055E3190022C4F9 /* TTURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5310559ECE00BF2243 /* TTURLCache.m */; };
+		3FFC889E1055E3190022C4F9 /* TTURLMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5410559ECE00BF2243 /* TTURLMap.m */; };
+		3FFC889F1055E3190022C4F9 /* TTURLPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5510559ECE00BF2243 /* TTURLPattern.m */; };
+		3FFC88A01055E3190022C4F9 /* TTURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5610559ECE00BF2243 /* TTURLRequest.m */; };
+		3FFC88A11055E3190022C4F9 /* TTURLRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5710559ECE00BF2243 /* TTURLRequestQueue.m */; };
+		3FFC88A21055E3190022C4F9 /* TTURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5810559ECE00BF2243 /* TTURLResponse.m */; };
+		3FFC88A31055E3190022C4F9 /* TTUnclippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5910559ECE00BF2243 /* TTUnclippedView.m */; };
+		3FFC88A41055E3190022C4F9 /* TTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5A10559ECE00BF2243 /* TTView.m */; };
+		3FFC88A51055E3190022C4F9 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5B10559ECE00BF2243 /* TTViewController.m */; };
+		3FFC88A61055E3190022C4F9 /* TTWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5C10559ECE00BF2243 /* TTWebController.m */; };
+		3FFC88A71055E3190022C4F9 /* TTYouTubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CF5D10559ECE00BF2243 /* TTYouTubeView.m */; };
+		3FFC88A81055E3190022C4F9 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB510559ECE00BF2243 /* UIColorAdditions.m */; };
+		3FFC88A91055E3190022C4F9 /* UIFontAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB610559ECE00BF2243 /* UIFontAdditions.m */; };
+		3FFC88AA1055E3190022C4F9 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB710559ECE00BF2243 /* UIImageAdditions.m */; };
+		3FFC88AB1055E3190022C4F9 /* UINavigationControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB810559ECE00BF2243 /* UINavigationControllerAdditions.m */; };
+		3FFC88AC1055E3190022C4F9 /* UITabBarControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFB910559ECE00BF2243 /* UITabBarControllerAdditions.m */; };
+		3FFC88AD1055E3190022C4F9 /* UITableViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFBA10559ECE00BF2243 /* UITableViewAdditions.m */; };
+		3FFC88AE1055E3190022C4F9 /* UIToolbarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFBB10559ECE00BF2243 /* UIToolbarAdditions.m */; };
+		3FFC88AF1055E3190022C4F9 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFBC10559ECE00BF2243 /* UIViewAdditions.m */; };
+		3FFC88B01055E3190022C4F9 /* UIViewControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFBD10559ECE00BF2243 /* UIViewControllerAdditions.m */; };
+		3FFC88B11055E3190022C4F9 /* UIWebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CFBE10559ECE00BF2243 /* UIWebViewAdditions.m */; };
+		3FFC88B31055E3190022C4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D18F1055A00800BF2243 /* Foundation.framework */; };
+		3FFC88B41055E3190022C4F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1931055A00B00BF2243 /* UIKit.framework */; };
+		3FFC88B51055E3190022C4F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1A51055A0A800BF2243 /* CoreGraphics.framework */; };
+		3FFC88B61055E3190022C4F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0D1AB1055A0B700BF2243 /* QuartzCore.framework */; };
+		3FFC89111055E3460022C4F9 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EA1055E3460022C4F9 /* NSObject+ClassName.m */; };
+		3FFC89121055E3460022C4F9 /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EC1055E3460022C4F9 /* ScriptRunner.m */; };
+		3FFC89131055E3460022C4F9 /* TestScript.sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC88ED1055E3460022C4F9 /* TestScript.sample.plist */; };
+		3FFC89141055E3460022C4F9 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88EF1055E3460022C4F9 /* TouchSynthesis.m */; };
+		3FFC89151055E3460022C4F9 /* UIApplication+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F11055E3460022C4F9 /* UIApplication+XMLDescription.m */; };
+		3FFC89161055E3460022C4F9 /* UIView+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F31055E3460022C4F9 /* UIView+XMLDescription.m */; };
+		3FFC89171055E3460022C4F9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC88F61055E3460022C4F9 /* XPathQuery.m */; };
+		3FFC89781055E6640022C4F9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89771055E6640022C4F9 /* libxml2.dylib */; };
+		3FFC89C51055E7370022C4F9 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89C41055E7370022C4F9 /* AsyncSocket.m */; };
+		3FFC89D41055E7470022C4F9 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89C71055E7470022C4F9 /* DDData.m */; };
+		3FFC89D51055E7470022C4F9 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89C91055E7470022C4F9 /* DDNumber.m */; };
+		3FFC89D61055E7470022C4F9 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89CB1055E7470022C4F9 /* DDRange.m */; };
+		3FFC89D71055E7470022C4F9 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89CD1055E7470022C4F9 /* HTTPAuthenticationRequest.m */; };
+		3FFC89D81055E7470022C4F9 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89CF1055E7470022C4F9 /* HTTPConnection.m */; };
+		3FFC89D91055E7470022C4F9 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89D11055E7470022C4F9 /* HTTPResponse.m */; };
+		3FFC89DA1055E7470022C4F9 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89D31055E7470022C4F9 /* HTTPServer.m */; };
+		3FFC89DD1055E75E0022C4F9 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC89DC1055E75E0022C4F9 /* MyHTTPConnection.m */; };
+		3FFC89E31055E7C00022C4F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E21055E7C00022C4F9 /* CFNetwork.framework */; };
+		3FFC89E51055E7C60022C4F9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E41055E7C60022C4F9 /* libicucore.dylib */; };
+		3FFC89E71055E7CA0022C4F9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E61055E7CA0022C4F9 /* libz.dylib */; };
+		3FFC89E91055E7CC0022C4F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFC89E81055E7CC0022C4F9 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +219,13 @@
 			remoteInfo = Three20;
 		};
 		3FC0D18710559FE600BF2243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC0CFB210559ECE00BF2243 /* Three20.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		3FFC885D1055E3190022C4F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FC0CFB210559ECE00BF2243 /* Three20.xcodeproj */;
 			proxyType = 1;
@@ -318,6 +432,45 @@
 		3FC0D1931055A00B00BF2243 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FC0D1A51055A0A800BF2243 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3FC0D1AB1055A0B700BF2243 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FFC88BA1055E3190022C4F9 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC88BC1055E3190022C4F9 /* Brominet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brominet-Info.plist"; sourceTree = "<group>"; };
+		3FFC88E91055E3460022C4F9 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
+		3FFC88EA1055E3460022C4F9 /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
+		3FFC88EB1055E3460022C4F9 /* ScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptRunner.h; sourceTree = "<group>"; };
+		3FFC88EC1055E3460022C4F9 /* ScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptRunner.m; sourceTree = "<group>"; };
+		3FFC88ED1055E3460022C4F9 /* TestScript.sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestScript.sample.plist; sourceTree = "<group>"; };
+		3FFC88EE1055E3460022C4F9 /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSynthesis.h; sourceTree = "<group>"; };
+		3FFC88EF1055E3460022C4F9 /* TouchSynthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchSynthesis.m; sourceTree = "<group>"; };
+		3FFC88F01055E3460022C4F9 /* UIApplication+XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+XMLDescription.h"; sourceTree = "<group>"; };
+		3FFC88F11055E3460022C4F9 /* UIApplication+XMLDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+XMLDescription.m"; sourceTree = "<group>"; };
+		3FFC88F21055E3460022C4F9 /* UIView+XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMLDescription.h"; sourceTree = "<group>"; };
+		3FFC88F31055E3460022C4F9 /* UIView+XMLDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMLDescription.m"; sourceTree = "<group>"; };
+		3FFC88F41055E3460022C4F9 /* XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDescription.h; sourceTree = "<group>"; };
+		3FFC88F51055E3460022C4F9 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3FFC88F61055E3460022C4F9 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3FFC89771055E6640022C4F9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3FFC89C31055E7370022C4F9 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Libraries/cocoahttpserver/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		3FFC89C41055E7370022C4F9 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Libraries/cocoahttpserver/AsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		3FFC89C61055E7470022C4F9 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = Libraries/cocoahttpserver/DDData.h; sourceTree = SOURCE_ROOT; };
+		3FFC89C71055E7470022C4F9 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = Libraries/cocoahttpserver/DDData.m; sourceTree = SOURCE_ROOT; };
+		3FFC89C81055E7470022C4F9 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Libraries/cocoahttpserver/DDNumber.h; sourceTree = SOURCE_ROOT; };
+		3FFC89C91055E7470022C4F9 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Libraries/cocoahttpserver/DDNumber.m; sourceTree = SOURCE_ROOT; };
+		3FFC89CA1055E7470022C4F9 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Libraries/cocoahttpserver/DDRange.h; sourceTree = SOURCE_ROOT; };
+		3FFC89CB1055E7470022C4F9 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = Libraries/cocoahttpserver/DDRange.m; sourceTree = SOURCE_ROOT; };
+		3FFC89CC1055E7470022C4F9 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Libraries/cocoahttpserver/HTTPAuthenticationRequest.h; sourceTree = SOURCE_ROOT; };
+		3FFC89CD1055E7470022C4F9 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Libraries/cocoahttpserver/HTTPAuthenticationRequest.m; sourceTree = SOURCE_ROOT; };
+		3FFC89CE1055E7470022C4F9 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = Libraries/cocoahttpserver/HTTPConnection.h; sourceTree = SOURCE_ROOT; };
+		3FFC89CF1055E7470022C4F9 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Libraries/cocoahttpserver/HTTPConnection.m; sourceTree = SOURCE_ROOT; };
+		3FFC89D01055E7470022C4F9 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Libraries/cocoahttpserver/HTTPResponse.h; sourceTree = SOURCE_ROOT; };
+		3FFC89D11055E7470022C4F9 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPResponse.m; path = Libraries/cocoahttpserver/HTTPResponse.m; sourceTree = SOURCE_ROOT; };
+		3FFC89D21055E7470022C4F9 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Libraries/cocoahttpserver/HTTPServer.h; sourceTree = SOURCE_ROOT; };
+		3FFC89D31055E7470022C4F9 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = Libraries/cocoahttpserver/HTTPServer.m; sourceTree = SOURCE_ROOT; };
+		3FFC89DB1055E75E0022C4F9 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyHTTPConnection.h; path = Libraries/cocoahttpserver/Classes/MyHTTPConnection.h; sourceTree = SOURCE_ROOT; };
+		3FFC89DC1055E75E0022C4F9 /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyHTTPConnection.m; path = Libraries/cocoahttpserver/Classes/MyHTTPConnection.m; sourceTree = SOURCE_ROOT; };
+		3FFC89E21055E7C00022C4F9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FFC89E41055E7C60022C4F9 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3FFC89E61055E7CA0022C4F9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3FFC89E81055E7CC0022C4F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +482,22 @@
 				3FC0D1941055A00B00BF2243 /* UIKit.framework in Frameworks */,
 				3FC0D1A61055A0A800BF2243 /* CoreGraphics.framework in Frameworks */,
 				3FC0D1AC1055A0B700BF2243 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC88B21055E3190022C4F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC88B31055E3190022C4F9 /* Foundation.framework in Frameworks */,
+				3FFC88B41055E3190022C4F9 /* UIKit.framework in Frameworks */,
+				3FFC88B51055E3190022C4F9 /* CoreGraphics.framework in Frameworks */,
+				3FFC88B61055E3190022C4F9 /* QuartzCore.framework in Frameworks */,
+				3FFC89781055E6640022C4F9 /* libxml2.dylib in Frameworks */,
+				3FFC89E31055E7C00022C4F9 /* CFNetwork.framework in Frameworks */,
+				3FFC89E51055E7C60022C4F9 /* libicucore.dylib in Frameworks */,
+				3FFC89E71055E7CA0022C4F9 /* libz.dylib in Frameworks */,
+				3FFC89E91055E7CC0022C4F9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +527,12 @@
 				3FC0D1931055A00B00BF2243 /* UIKit.framework */,
 				3FC0D1A51055A0A800BF2243 /* CoreGraphics.framework */,
 				3FC0D1AB1055A0B700BF2243 /* QuartzCore.framework */,
+				3FFC88BA1055E3190022C4F9 /* ___PROJECTNAME___.app */,
+				3FFC89771055E6640022C4F9 /* libxml2.dylib */,
+				3FFC89E21055E7C00022C4F9 /* CFNetwork.framework */,
+				3FFC89E41055E7C60022C4F9 /* libicucore.dylib */,
+				3FFC89E61055E7CA0022C4F9 /* libz.dylib */,
+				3FFC89E81055E7CC0022C4F9 /* SystemConfiguration.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -425,6 +600,8 @@
 		3FC0CE9810559ECE00BF2243 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3FFC89BD1055E71B0022C4F9 /* Server */,
+				3FFC88BD1055E3460022C4F9 /* brominet */,
 				3FC0CE9910559ECE00BF2243 /* three20 */,
 			);
 			path = Libraries;
@@ -662,6 +839,7 @@
 			children = (
 				3FC0D17010559F7F00BF2243 /* Info.plist */,
 				3FC0D17110559F7F00BF2243 /* Unit Tests-Info.plist */,
+				3FFC88BC1055E3190022C4F9 /* Brominet-Info.plist */,
 			);
 			path = PLISTs;
 			sourceTree = "<group>";
@@ -678,6 +856,188 @@
 			children = (
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		3FFC88BD1055E3460022C4F9 /* brominet */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88BE1055E3460022C4F9 /* .git */,
+				3FFC88E91055E3460022C4F9 /* NSObject+ClassName.h */,
+				3FFC88EA1055E3460022C4F9 /* NSObject+ClassName.m */,
+				3FFC88EB1055E3460022C4F9 /* ScriptRunner.h */,
+				3FFC88EC1055E3460022C4F9 /* ScriptRunner.m */,
+				3FFC88ED1055E3460022C4F9 /* TestScript.sample.plist */,
+				3FFC88EE1055E3460022C4F9 /* TouchSynthesis.h */,
+				3FFC88EF1055E3460022C4F9 /* TouchSynthesis.m */,
+				3FFC88F01055E3460022C4F9 /* UIApplication+XMLDescription.h */,
+				3FFC88F11055E3460022C4F9 /* UIApplication+XMLDescription.m */,
+				3FFC88F21055E3460022C4F9 /* UIView+XMLDescription.h */,
+				3FFC88F31055E3460022C4F9 /* UIView+XMLDescription.m */,
+				3FFC88F41055E3460022C4F9 /* XMLDescription.h */,
+				3FFC88F51055E3460022C4F9 /* XPathQuery.h */,
+				3FFC88F61055E3460022C4F9 /* XPathQuery.m */,
+			);
+			path = brominet;
+			sourceTree = "<group>";
+		};
+		3FFC88BE1055E3460022C4F9 /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88C01055E3460022C4F9 /* branches */,
+				3FFC88C31055E3460022C4F9 /* hooks */,
+				3FFC88CF1055E3460022C4F9 /* info */,
+				3FFC88D11055E3460022C4F9 /* logs */,
+				3FFC88DA1055E3460022C4F9 /* objects */,
+				3FFC88E01055E3460022C4F9 /* refs */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		3FFC88C01055E3460022C4F9 /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = branches;
+			sourceTree = "<group>";
+		};
+		3FFC88C31055E3460022C4F9 /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		3FFC88CF1055E3460022C4F9 /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		3FFC88D11055E3460022C4F9 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88D31055E3460022C4F9 /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		3FFC88D31055E3460022C4F9 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88D41055E3460022C4F9 /* heads */,
+				3FFC88D61055E3460022C4F9 /* remotes */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		3FFC88D41055E3460022C4F9 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		3FFC88D61055E3460022C4F9 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88D71055E3460022C4F9 /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		3FFC88D71055E3460022C4F9 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		3FFC88DA1055E3460022C4F9 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88DB1055E3460022C4F9 /* info */,
+				3FFC88DC1055E3460022C4F9 /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		3FFC88DB1055E3460022C4F9 /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		3FFC88DC1055E3460022C4F9 /* pack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		3FFC88E01055E3460022C4F9 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88E11055E3460022C4F9 /* heads */,
+				3FFC88E31055E3460022C4F9 /* remotes */,
+				3FFC88E71055E3460022C4F9 /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		3FFC88E11055E3460022C4F9 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		3FFC88E31055E3460022C4F9 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC88E41055E3460022C4F9 /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		3FFC88E41055E3460022C4F9 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		3FFC88E71055E3460022C4F9 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
+		3FFC89BD1055E71B0022C4F9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC89DB1055E75E0022C4F9 /* MyHTTPConnection.h */,
+				3FFC89DC1055E75E0022C4F9 /* MyHTTPConnection.m */,
+				3FFC89C61055E7470022C4F9 /* DDData.h */,
+				3FFC89C71055E7470022C4F9 /* DDData.m */,
+				3FFC89C81055E7470022C4F9 /* DDNumber.h */,
+				3FFC89C91055E7470022C4F9 /* DDNumber.m */,
+				3FFC89CA1055E7470022C4F9 /* DDRange.h */,
+				3FFC89CB1055E7470022C4F9 /* DDRange.m */,
+				3FFC89CC1055E7470022C4F9 /* HTTPAuthenticationRequest.h */,
+				3FFC89CD1055E7470022C4F9 /* HTTPAuthenticationRequest.m */,
+				3FFC89CE1055E7470022C4F9 /* HTTPConnection.h */,
+				3FFC89CF1055E7470022C4F9 /* HTTPConnection.m */,
+				3FFC89D01055E7470022C4F9 /* HTTPResponse.h */,
+				3FFC89D11055E7470022C4F9 /* HTTPResponse.m */,
+				3FFC89D21055E7470022C4F9 /* HTTPServer.h */,
+				3FFC89D31055E7470022C4F9 /* HTTPServer.m */,
+				3FFC89C31055E7370022C4F9 /* AsyncSocket.h */,
+				3FFC89C41055E7370022C4F9 /* AsyncSocket.m */,
+			);
+			name = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -699,6 +1059,24 @@
 			name = "___PROJECTNAME___";
 			productName = "___PROJECTNAME___";
 			productReference = 3FC0D17E10559FBF00BF2243 /* ___PROJECTNAME___.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFC885B1055E3190022C4F9 /* Brominet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC88B71055E3190022C4F9 /* Build configuration list for PBXNativeTarget "Brominet" */;
+			buildPhases = (
+				3FFC885E1055E3190022C4F9 /* Resources */,
+				3FFC88601055E3190022C4F9 /* Sources */,
+				3FFC88B21055E3190022C4F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFC885C1055E3190022C4F9 /* PBXTargetDependency */,
+			);
+			name = Brominet;
+			productName = "___PROJECTNAME___";
+			productReference = 3FFC88BA1055E3190022C4F9 /* ___PROJECTNAME___.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8C9E036F0F6F3A3A002BA557 /* Unit Tests */ = {
@@ -741,6 +1119,7 @@
 			targets = (
 				1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */,
 				8C9E036F0F6F3A3A002BA557 /* Unit Tests */,
+				3FFC885B1055E3190022C4F9 /* Brominet */,
 			);
 		};
 /* End PBXProject section */
@@ -761,6 +1140,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC0D0AA10559ECE00BF2243 /* Three20.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC885E1055E3190022C4F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC885F1055E3190022C4F9 /* Three20.bundle in Resources */,
+				3FFC89131055E3460022C4F9 /* TestScript.sample.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,6 +1268,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FFC88601055E3190022C4F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC88611055E3190022C4F9 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */,
+				3FFC88621055E3190022C4F9 /* main.m in Sources */,
+				3FFC88631055E3190022C4F9 /* NSArrayAdditions.m in Sources */,
+				3FFC88641055E3190022C4F9 /* NSDateAdditions.m in Sources */,
+				3FFC88651055E3190022C4F9 /* NSObjectAdditions.m in Sources */,
+				3FFC88661055E3190022C4F9 /* NSStringAdditions.m in Sources */,
+				3FFC88671055E3190022C4F9 /* TTActionSheetController.m in Sources */,
+				3FFC88681055E3190022C4F9 /* TTActivityLabel.m in Sources */,
+				3FFC88691055E3190022C4F9 /* TTAlertViewController.m in Sources */,
+				3FFC886A1055E3190022C4F9 /* TTButton.m in Sources */,
+				3FFC886B1055E3190022C4F9 /* TTButtonBar.m in Sources */,
+				3FFC886C1055E3190022C4F9 /* TTDefaultStyleSheet.m in Sources */,
+				3FFC886D1055E3190022C4F9 /* TTErrorView.m in Sources */,
+				3FFC886E1055E3190022C4F9 /* TTGlobal.m in Sources */,
+				3FFC886F1055E3190022C4F9 /* TTImageView.m in Sources */,
+				3FFC88701055E3190022C4F9 /* TTLabel.m in Sources */,
+				3FFC88711055E3190022C4F9 /* TTLauncherButton.m in Sources */,
+				3FFC88721055E3190022C4F9 /* TTLauncherItem.m in Sources */,
+				3FFC88731055E3190022C4F9 /* TTLauncherView.m in Sources */,
+				3FFC88741055E3190022C4F9 /* TTLayout.m in Sources */,
+				3FFC88751055E3190022C4F9 /* TTLink.m in Sources */,
+				3FFC88761055E3190022C4F9 /* TTListDataSource.m in Sources */,
+				3FFC88771055E3190022C4F9 /* TTMessageController.m in Sources */,
+				3FFC88781055E3190022C4F9 /* TTModel.m in Sources */,
+				3FFC88791055E3190022C4F9 /* TTModelViewController.m in Sources */,
+				3FFC887A1055E3190022C4F9 /* TTNavigator.m in Sources */,
+				3FFC887B1055E3190022C4F9 /* TTPageControl.m in Sources */,
+				3FFC887C1055E3190022C4F9 /* TTPhotoView.m in Sources */,
+				3FFC887D1055E3190022C4F9 /* TTPhotoViewController.m in Sources */,
+				3FFC887E1055E3190022C4F9 /* TTPickerTextField.m in Sources */,
+				3FFC887F1055E3190022C4F9 /* TTPickerViewCell.m in Sources */,
+				3FFC88801055E3190022C4F9 /* TTPopupViewController.m in Sources */,
+				3FFC88811055E3190022C4F9 /* TTPostController.m in Sources */,
+				3FFC88821055E3190022C4F9 /* TTScrollView.m in Sources */,
+				3FFC88831055E3190022C4F9 /* TTSearchBar.m in Sources */,
+				3FFC88841055E3190022C4F9 /* TTSearchDisplayController.m in Sources */,
+				3FFC88851055E3190022C4F9 /* TTSearchTextField.m in Sources */,
+				3FFC88861055E3190022C4F9 /* TTSearchlightLabel.m in Sources */,
+				3FFC88871055E3190022C4F9 /* TTShape.m in Sources */,
+				3FFC88881055E3190022C4F9 /* TTStyle.m in Sources */,
+				3FFC88891055E3190022C4F9 /* TTStyleSheet.m in Sources */,
+				3FFC888A1055E3190022C4F9 /* TTStyledFrame.m in Sources */,
+				3FFC888B1055E3190022C4F9 /* TTStyledLayout.m in Sources */,
+				3FFC888C1055E3190022C4F9 /* TTStyledNode.m in Sources */,
+				3FFC888D1055E3190022C4F9 /* TTStyledText.m in Sources */,
+				3FFC888E1055E3190022C4F9 /* TTStyledTextLabel.m in Sources */,
+				3FFC888F1055E3190022C4F9 /* TTStyledTextParser.m in Sources */,
+				3FFC88901055E3190022C4F9 /* TTTabBar.m in Sources */,
+				3FFC88911055E3190022C4F9 /* TTTableHeaderView.m in Sources */,
+				3FFC88921055E3190022C4F9 /* TTTableItem.m in Sources */,
+				3FFC88931055E3190022C4F9 /* TTTableItemCell.m in Sources */,
+				3FFC88941055E3190022C4F9 /* TTTableView.m in Sources */,
+				3FFC88951055E3190022C4F9 /* TTTableViewCell.m in Sources */,
+				3FFC88961055E3190022C4F9 /* TTTableViewController.m in Sources */,
+				3FFC88971055E3190022C4F9 /* TTTableViewDataSource.m in Sources */,
+				3FFC88981055E3190022C4F9 /* TTTableViewDelegate.m in Sources */,
+				3FFC88991055E3190022C4F9 /* TTTextEditor.m in Sources */,
+				3FFC889A1055E3190022C4F9 /* TTThumbView.m in Sources */,
+				3FFC889B1055E3190022C4F9 /* TTThumbsTableViewCell.m in Sources */,
+				3FFC889C1055E3190022C4F9 /* TTThumbsViewController.m in Sources */,
+				3FFC889D1055E3190022C4F9 /* TTURLCache.m in Sources */,
+				3FFC889E1055E3190022C4F9 /* TTURLMap.m in Sources */,
+				3FFC889F1055E3190022C4F9 /* TTURLPattern.m in Sources */,
+				3FFC88A01055E3190022C4F9 /* TTURLRequest.m in Sources */,
+				3FFC88A11055E3190022C4F9 /* TTURLRequestQueue.m in Sources */,
+				3FFC88A21055E3190022C4F9 /* TTURLResponse.m in Sources */,
+				3FFC88A31055E3190022C4F9 /* TTUnclippedView.m in Sources */,
+				3FFC88A41055E3190022C4F9 /* TTView.m in Sources */,
+				3FFC88A51055E3190022C4F9 /* TTViewController.m in Sources */,
+				3FFC88A61055E3190022C4F9 /* TTWebController.m in Sources */,
+				3FFC88A71055E3190022C4F9 /* TTYouTubeView.m in Sources */,
+				3FFC88A81055E3190022C4F9 /* UIColorAdditions.m in Sources */,
+				3FFC88A91055E3190022C4F9 /* UIFontAdditions.m in Sources */,
+				3FFC88AA1055E3190022C4F9 /* UIImageAdditions.m in Sources */,
+				3FFC88AB1055E3190022C4F9 /* UINavigationControllerAdditions.m in Sources */,
+				3FFC88AC1055E3190022C4F9 /* UITabBarControllerAdditions.m in Sources */,
+				3FFC88AD1055E3190022C4F9 /* UITableViewAdditions.m in Sources */,
+				3FFC88AE1055E3190022C4F9 /* UIToolbarAdditions.m in Sources */,
+				3FFC88AF1055E3190022C4F9 /* UIViewAdditions.m in Sources */,
+				3FFC88B01055E3190022C4F9 /* UIViewControllerAdditions.m in Sources */,
+				3FFC88B11055E3190022C4F9 /* UIWebViewAdditions.m in Sources */,
+				3FFC89111055E3460022C4F9 /* NSObject+ClassName.m in Sources */,
+				3FFC89121055E3460022C4F9 /* ScriptRunner.m in Sources */,
+				3FFC89141055E3460022C4F9 /* TouchSynthesis.m in Sources */,
+				3FFC89151055E3460022C4F9 /* UIApplication+XMLDescription.m in Sources */,
+				3FFC89161055E3460022C4F9 /* UIView+XMLDescription.m in Sources */,
+				3FFC89171055E3460022C4F9 /* XPathQuery.m in Sources */,
+				3FFC89C51055E7370022C4F9 /* AsyncSocket.m in Sources */,
+				3FFC89D41055E7470022C4F9 /* DDData.m in Sources */,
+				3FFC89D51055E7470022C4F9 /* DDNumber.m in Sources */,
+				3FFC89D61055E7470022C4F9 /* DDRange.m in Sources */,
+				3FFC89D71055E7470022C4F9 /* HTTPAuthenticationRequest.m in Sources */,
+				3FFC89D81055E7470022C4F9 /* HTTPConnection.m in Sources */,
+				3FFC89D91055E7470022C4F9 /* HTTPResponse.m in Sources */,
+				3FFC89DA1055E7470022C4F9 /* HTTPServer.m in Sources */,
+				3FFC89DD1055E75E0022C4F9 /* MyHTTPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C9E036D0F6F3A3A002BA557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -898,6 +1389,11 @@
 			isa = PBXTargetDependency;
 			name = Three20;
 			targetProxy = 3FC0D18710559FE600BF2243 /* PBXContainerItemProxy */;
+		};
+		3FFC885C1055E3190022C4F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20;
+			targetProxy = 3FFC885D1055E3190022C4F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -949,6 +1445,70 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Libraries/three20/src/build/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "___PROJECTNAME___";
+			};
+			name = Release;
+		};
+		3FFC88B81055E3190022C4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/build/Debug-iphonesimulator\\\"",
+					"\\\"$(SRCROOT)/Frameworks\\\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINET_ENABLED;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/libxml2/**",
+					"Libraries/three20/src/**",
+				);
+				INFOPLIST_FILE = "Resources/PLISTs/Brominet-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/Libraries/three20/src/build/Debug-iphonesimulator\\\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "___PROJECTNAME___";
+			};
+			name = Debug;
+		};
+		3FFC88B91055E3190022C4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/build/Debug-iphonesimulator\\\"",
+					"\\\"$(SRCROOT)/Frameworks\\\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINET_ENABLED;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/libxml2/**",
+					"Libraries/three20/src/**",
+				);
+				INFOPLIST_FILE = "Resources/PLISTs/Brominet-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/Libraries/three20/src/build/Debug-iphonesimulator\\\"",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1050,6 +1610,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFC88B71055E3190022C4F9 /* Build configuration list for PBXNativeTarget "Brominet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC88B81055E3190022C4F9 /* Debug */,
+				3FFC88B91055E3190022C4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

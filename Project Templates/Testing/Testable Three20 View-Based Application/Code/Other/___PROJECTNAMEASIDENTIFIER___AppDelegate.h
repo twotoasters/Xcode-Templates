@@ -8,8 +8,14 @@
 
 #import <Three20/Three20.h>
 
-@interface ___PROJECTNAMEASIDENTIFIER___AppDelegate : NSObject <UIApplicationDelegate> {
+#ifdef BROMINET_ENABLED
+	#import "HTTPServer.h"
+#endif
 
+@interface ___PROJECTNAMEASIDENTIFIER___AppDelegate : NSObject <UIApplicationDelegate> {
+	#ifdef BROMINET_ENABLED
+		HTTPServer *httpServer;
+	#endif
 }
 
 @end
