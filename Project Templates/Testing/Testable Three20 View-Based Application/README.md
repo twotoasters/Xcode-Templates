@@ -8,4 +8,8 @@ To get up and running, do the following:
 
 `git submodule add git://github.com/joehewitt/three20.git Libraries/three20`
 
-Then remove and re-add the Three20 dependency on the Application Target (in Xcode)
+`git submodule add git://github.com/twotoasters/cocoahttpserver.git Libraries/cocoahttpserver`
+
+`git submodule add git@github.com:twotoasters/brominet.git Libraries/brominet`
+
+Then remove and re-add the Three20 dependency on the Application Target and Brominet Target(in Xcode)
