@@ -7,7 +7,7 @@ require 'spec/expectations'
 
 module ___PROJECTNAMEASIDENTIFIER___Helper
   def app
-    @app ||= ProjectName.new 'localhost'
+    @app ||= ___PROJECTNAMEASIDENTIFIER___.new 'localhost'
   end
 
   # def test_server

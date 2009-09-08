@@ -1068,6 +1068,7 @@
 				3FFC885E1055E3190022C4F9 /* Resources */,
 				3FFC88601055E3190022C4F9 /* Sources */,
 				3FFC88B21055E3190022C4F9 /* Frameworks */,
+				3F61D3921056AEA60023B9BD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1164,6 +1165,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3F61D3921056AEA60023B9BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "osascript -e 'tell application \"Xcode\"' \\\n        -e 'set ___PROJECTNAME___ to active project document' \\\n        -e 'launch the active executable of ___PROJECTNAME___' \\\n      -e 'end tell' >/dev/null\n\ncucumber Features";
+		};
 		8C9E037C0F6F3AA4002BA557 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
