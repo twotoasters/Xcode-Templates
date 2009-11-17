@@ -10,12 +10,12 @@ To get up and running, do the following:
 
 `git submodule add git@github.com:twotoasters/three20.git Libraries/three20`
 
-`git submodule add git@github.com:twotoasters/cocoahttpserver.git Libraries/cocoahttpserver`
+`git submodule add git://github.com/Objective3/ElementParser.git Libraries/ElementParser`
 
-`git submodule add git@github.com:twotoasters/brominet.git Libraries/brominet`
+`git submodule add git@github.com:twotoasters/UISpec.git Libraries/UISpec`
 
 `git add . .gitignore .gitattributes`
 
 `git commit -am "initial commit"`
 
-Then remove and re-add the Three20 dependency on the Application Target and Brominet Target(in Xcode)
+Then remove and re-add the Three20, ElementParser, and UISpec both targets.

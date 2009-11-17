@@ -7,3 +7,9 @@
 [submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/cocoahttpserver"]
 	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/cocoahttpserver
 	url = git://github.com/twotoasters/cocoahttpserver.git
+[submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/ElementParser"]
+	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/ElementParser
+	url = git://github.com/Objective3/ElementParser.git
+[submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/UISpec"]
+	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/UISpec
+	url = git@github.com:twotoasters/UISpec.git
