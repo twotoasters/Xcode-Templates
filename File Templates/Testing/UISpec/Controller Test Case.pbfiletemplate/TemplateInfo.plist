@@ -1,4 +1,4 @@
 {
-	MainTemplateFile = "ControllerSpec.m";
+	MainTemplateFile = "class.m";
 	Description = "A UISpec controller test file.";
 }
