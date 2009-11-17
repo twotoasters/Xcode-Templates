@@ -1,0 +1,4 @@
+{
+	MainTemplateFile = "ControllerSpec.m";
+	Description = "A UISpec controller test file.";
+}

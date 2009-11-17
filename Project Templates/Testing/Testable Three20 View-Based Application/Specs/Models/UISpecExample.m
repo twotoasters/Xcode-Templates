@@ -29,7 +29,7 @@
 	[app release];
 }
 
-- (void)viewUI {
+- (void)itShouldViewUI {
 	[[app view] should].exist;
 }
 
