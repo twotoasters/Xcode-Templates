@@ -8,34 +8,9 @@
 
 #import "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"
 
-#ifdef BROMINET_ENABLED
-	#import "ScriptRunner.h"
-	#import "MyHTTPConnection.h"
-#endif
-
 @implementation ___PROJECTNAMEASIDENTIFIER___AppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-#ifdef BROMINET_ENABLED
-	// Listen for incoming instructions coming from the GUI tests.
-	
-	NSString *root = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0];
-	httpServer = [HTTPServer new];
-	[httpServer setName:@"the iPhone"];
-	[httpServer setType:@"_http._tcp."];
-	[httpServer setConnectionClass:[MyHTTPConnection class]];
-	[httpServer setDocumentRoot:[NSURL fileURLWithPath:root]];
-	[httpServer setPort:50000];
-	
-	ScriptRunner *runner = [[[ScriptRunner alloc] init] autorelease];
-	[MyHTTPConnection setSharedObserver:runner];
-	
-	NSError *error;
-	if(![httpServer start:&error])
-	{
-		NSLog(@"Error starting HTTP Server: %@", error);
-	}
-#endif
 	
     TTNavigator* navigator = [TTNavigator navigator];
 	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
@@ -54,10 +29,6 @@
 }
 
 - (void)dealloc {
-	#ifdef BROMINET_ENABLED
-		[httpServer release];
-		[MyHTTPConnection setSharedObserver:nil];
-	#endif
 	[super dealloc];
 }
 
@@ -65,17 +36,5 @@
 	[[TTNavigator navigator] openURL:URL.absoluteString animated:NO];
 	return YES;
 }
-
-/*
- * For UI Driven Testing
- */
-
-#ifdef BROMINET_ENABLED
-
-- (void)terminateApp:sender {
-	exit(0);
-}
-
-#endif
 
 @end
