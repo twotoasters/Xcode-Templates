@@ -10,7 +10,7 @@ To get up and running, do the following:
 
 `git submodule add git@github.com:twotoasters/three20.git Libraries/three20`
 
-`git submodule add git://github.com/Objective3/ElementParser.git Libraries/ElementParser`
+`git submodule add git@github.com:twotoasters/iPhone-Build-Scripts.git Scripts/iPhone-Build-Scripts`
 
 `git submodule add git@github.com:twotoasters/UISpec.git Libraries/UISpec`
 

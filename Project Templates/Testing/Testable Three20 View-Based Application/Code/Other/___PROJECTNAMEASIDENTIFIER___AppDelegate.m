@@ -10,7 +10,7 @@
 
 @implementation ___PROJECTNAMEASIDENTIFIER___AppDelegate
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
     TTNavigator* navigator = [TTNavigator navigator];
 	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
@@ -24,8 +24,10 @@
 	
     if (![navigator restoreViewControllers]) {
 		// Put your root controller url here
-		[navigator openURL:@"http://www.google.com" animated:NO];
+		[navigator openURLAction:[TTURLAction actionWithURLPath:@"http://www.google.com"]];
 	}
+	
+	return YES;
 }
 
 - (void)dealloc {

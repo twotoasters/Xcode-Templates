@@ -11,7 +11,6 @@
 #import "UISpec.h"
 #import "UIQuery.h"
 #import "UIExpectation.h"
-#import "TWTExpectation.h"
 
 @interface UISpecExample : NSObject <UISpec> {
 	UIQuery* app;
@@ -22,7 +21,7 @@
 @implementation UISpecExample
 
 - (void)beforeAll {
-	app = [[UIQuery withApplicaton] retain];
+	app = [[UIQuery withApplication] retain];
 }
 
 -(void)afterAll {

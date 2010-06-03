@@ -1,9 +1,9 @@
-[submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/ElementParser"]
-	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/ElementParser
-	url = git://github.com/Objective3/ElementParser.git
 [submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/UISpec"]
 	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/UISpec
 	url = git@github.com:twotoasters/UISpec.git
 [submodule "Project Templates/Testing/Testable Three20 View-Based Application/Libraries/three20"]
 	path = Project Templates/Testing/Testable Three20 View-Based Application/Libraries/three20
 	url = git@github.com:twotoasters/three20.git
+[submodule "Project Templates/Testing/Testable Three20 View-Based Application/Scripts/iPhone-Build-Script"]
+	path = Project Templates/Testing/Testable Three20 View-Based Application/Scripts/iPhone-Build-Script
+	url = git@github.com:twotoasters/iPhone-Build-Scripts.git
