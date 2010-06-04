@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 3F28761F112F0F85007D76EE /* Build configuration list for PBXAggregateTarget "Client Build" */;
 			buildPhases = (
-				3F287619112F0F5B007D76EE /* ShellScript */,
+				3FDF269011B9792F00E77D9D /* ShellScript */,
 			);
 			dependencies = (
 				3F28761E112F0F6B007D76EE /* PBXTargetDependency */,
@@ -31,6 +31,18 @@
 			name = "Release Build";
 			productName = "Release Build";
 		};
+		3F90A39511B818910016EE41 /* Generate Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F90A39911B818B00016EE41 /* Build configuration list for PBXAggregateTarget "Generate Documentation" */;
+			buildPhases = (
+				3FDF268E11B9790D00E77D9D /* ShellScript */,
+			);
+			dependencies = (
+				3F90A3A411B819000016EE41 /* PBXTargetDependency */,
+			);
+			name = "Generate Documentation";
+			productName = "Generate Documentation";
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
@@ -41,6 +53,8 @@
 		3F18D7A410B3494A000F8F3B /* UISpecExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F18D7A310B3494A000F8F3B /* UISpecExample.m */; };
 		3F90A23111B7F5D30016EE41 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90A22E11B7F5D10016EE41 /* libThree20.a */; };
 		3F90A2C511B7FB820016EE41 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90A22E11B7F5D10016EE41 /* libThree20.a */; };
+		3F90A34911B815AA0016EE41 /* DoxygenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A34811B815AA0016EE41 /* DoxygenTest.m */; };
+		3F90A34A11B815AA0016EE41 /* DoxygenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A34811B815AA0016EE41 /* DoxygenTest.m */; };
 		3FC0CE6510559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CE6110559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
 		3FC0CE6610559E8E00BF2243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CE6310559E8E00BF2243 /* main.m */; };
 		3FE3539C112F27E000FE7411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE3539B112F27E000FE7411 /* Foundation.framework */; };
@@ -87,36 +101,43 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F18D77F10B34896000F8F3B /* UISpec.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C7D4F29310BDA39C00B00019 /* Specs.app */;
+			remoteGlobalIDString = C7D4F29310BDA39C00B00019;
 			remoteInfo = Specs;
 		};
 		3F90A22D11B7F5D10016EE41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F90A20211B7F5D00016EE41 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		3F90A22F11B7F5D10016EE41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F90A20211B7F5D00016EE41 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = UnitTests;
 		};
 		3F90A23211B7F5DB0016EE41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F90A20211B7F5D00016EE41 /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		3F90A23411B7F5E20016EE41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F90A20211B7F5D00016EE41 /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
+		};
+		3F90A3A311B819000016EE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = "___PROJECTNAME___";
 		};
 		3FF1049710B34B1A000EB6F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -136,6 +157,8 @@
 		3F18D7A310B3494A000F8F3B /* UISpecExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpecExample.m; sourceTree = "<group>"; };
 		3F2CF58A10CD4ECB0096C192 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		3F90A20211B7F5D00016EE41 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = three20/src/Three20/Three20.xcodeproj; sourceTree = "<group>"; };
+		3F90A34711B815AA0016EE41 /* DoxygenTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoxygenTest.h; sourceTree = "<group>"; };
+		3F90A34811B815AA0016EE41 /* DoxygenTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoxygenTest.m; sourceTree = "<group>"; };
 		3FC0CE6010559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; sourceTree = "<group>"; };
 		3FC0CE6110559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.m"; sourceTree = "<group>"; };
 		3FC0CE6210559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
@@ -280,6 +303,8 @@
 		3FC0CE5C10559E8E00BF2243 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F90A34711B815AA0016EE41 /* DoxygenTest.h */,
+				3F90A34811B815AA0016EE41 /* DoxygenTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -428,6 +453,7 @@
 				3F18D76510B34868000F8F3B /* UISpec */,
 				3F28761A112F0F5B007D76EE /* Client Build */,
 				3F287634112F1112007D76EE /* Release Build */,
+				3F90A39511B818910016EE41 /* Generate Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -490,19 +516,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F287619112F0F5B007D76EE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/bin/env ruby \"$SOURCE_ROOT/Scripts/iPhone-Build-Script/client_build_script.rb\"";
-		};
 		3F287633112F1112007D76EE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,6 +529,32 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/bin/env ruby \"$SOURCE_ROOT/Scripts/iPhone-Build-Script/release_build_script.rb\"";
 		};
+		3FDF268E11B9790D00E77D9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$SOURCE_ROOT/Scripts/iPhone-Build-Script/documentation.sh\"";
+		};
+		3FDF269011B9792F00E77D9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/env ruby \"$SOURCE_ROOT/Scripts/iPhone-Build-Script/client_build_script.rb\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -525,6 +564,7 @@
 			files = (
 				3FC0CE6510559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */,
 				3FC0CE6610559E8E00BF2243 /* main.m in Sources */,
+				3F90A34911B815AA0016EE41 /* DoxygenTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +575,7 @@
 				3F18D76D10B34868000F8F3B /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */,
 				3F18D79210B34905000F8F3B /* main.m in Sources */,
 				3F18D7A410B3494A000F8F3B /* UISpecExample.m in Sources */,
+				3F90A34A11B815AA0016EE41 /* DoxygenTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +602,11 @@
 			name = Three20;
 			targetProxy = 3F90A23411B7F5E20016EE41 /* PBXContainerItemProxy */;
 		};
+		3F90A3A411B819000016EE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */;
+			targetProxy = 3F90A3A311B819000016EE41 /* PBXContainerItemProxy */;
+		};
 		3FF1049810B34B1A000EB6F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UISpec_Simulator;
@@ -574,6 +620,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 5;
+				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
@@ -595,6 +643,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "___PROJECTNAME___";
+				SYMROOT = Build;
 			};
 			name = Debug;
 		};
@@ -604,6 +653,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
@@ -624,6 +675,7 @@
 				);
 				PRODUCT_NAME = "___PROJECTNAME___";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SYMROOT = Build;
 			};
 			name = Release;
 		};
@@ -750,6 +802,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
@@ -769,6 +823,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "___PROJECTNAME___";
+				SYMROOT = Build;
 			};
 			name = Distribution;
 		};
@@ -821,6 +876,34 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "Release Build";
 				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		3F90A39611B818920016EE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Generate Documentation";
+			};
+			name = Debug;
+		};
+		3F90A39711B818920016EE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Generate Documentation";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3F90A39811B818920016EE41 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Generate Documentation";
 			};
 			name = Distribution;
 		};
@@ -890,6 +973,16 @@
 				3F287635112F1112007D76EE /* Debug */,
 				3F287636112F1112007D76EE /* Release */,
 				3F28763B112F113E007D76EE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F90A39911B818B00016EE41 /* Build configuration list for PBXAggregateTarget "Generate Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F90A39611B818920016EE41 /* Debug */,
+				3F90A39711B818920016EE41 /* Release */,
+				3F90A39811B818920016EE41 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
