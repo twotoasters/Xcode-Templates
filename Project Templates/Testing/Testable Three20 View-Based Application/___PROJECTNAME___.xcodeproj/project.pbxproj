@@ -251,7 +251,6 @@
 		3F18D77F10B34896000F8F3B /* UISpec.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISpec.xcodeproj; path = UISpec/xcode/UISpec/UISpec.xcodeproj; sourceTree = "<group>"; };
 		3F18D79110B34905000F8F3B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F18D7A310B3494A000F8F3B /* UISpecExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpecExample.m; sourceTree = "<group>"; };
-		3F2CF58A10CD4ECB0096C192 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		3F2ED0B111E2271100CC78A5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		3F2ED0B711E2272000CC78A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F2ED0BD11E2273F00CC78A5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -543,7 +542,6 @@
 			children = (
 				3FC0D17010559F7F00BF2243 /* Info.plist */,
 				3F18D77B10B34868000F8F3B /* Info UISpec.plist */,
-				3F2CF58A10CD4ECB0096C192 /* Info copy.plist */,
 			);
 			path = PLISTs;
 			sourceTree = "<group>";
