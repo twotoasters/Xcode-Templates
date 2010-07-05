@@ -3,6 +3,7 @@ rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/Lib
 rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/Libraries/UISpec
 rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/Libraries/ElementParser
 rm -rf Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/build
-mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/
+mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/Project\ Templates/Testing/Testable\ Three20\ View-Based\ Application/
+rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/
 cp -r Project\ Templates ~/Library/Application\ Support/Developer/Shared/Xcode/
 cp -r File\ Templates ~/Library/Application\ Support/Developer/Shared/Xcode/
