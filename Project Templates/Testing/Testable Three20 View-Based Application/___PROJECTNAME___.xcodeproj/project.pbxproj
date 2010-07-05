@@ -959,11 +959,12 @@
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"Libraries/UISpec/src/**",
+					Libraries/UISpec/bin/UISpec/Headers,
 					Libraries/three20/Build/Products/three20,
 				);
 				INFOPLIST_FILE = "Resources/PLISTs/Info UISpec.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -982,11 +983,12 @@
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"Libraries/UISpec/src/**",
+					Libraries/UISpec/bin/UISpec/Headers,
 					Libraries/three20/Build/Products/three20,
 				);
 				INFOPLIST_FILE = "Resources/PLISTs/Info UISpec.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1085,11 +1087,12 @@
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"Libraries/UISpec/src/**",
+					Libraries/UISpec/bin/UISpec/Headers,
 					Libraries/three20/Build/Products/three20,
 				);
 				INFOPLIST_FILE = "Resources/PLISTs/Info UISpec.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
