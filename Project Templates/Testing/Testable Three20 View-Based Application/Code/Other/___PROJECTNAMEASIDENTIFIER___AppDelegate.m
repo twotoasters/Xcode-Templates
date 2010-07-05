@@ -35,7 +35,8 @@
 }
 
 - (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
-	[[TTNavigator navigator] openURL:URL.absoluteString animated:NO];
+	[[TTNavigator navigator] openURLAction:
+	 [TTURLAction actionWithURLPath:URL.absoluteString]];
 	return YES;
 }
 

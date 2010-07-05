@@ -7,10 +7,10 @@
 //
 
 
-#import "UIBug.h"
-#import "UISpec.h"
-#import "UIQuery.h"
-#import "UIExpectation.h"
+#import <UIBug.h>
+#import <UISpec.h>
+#import <UIQuery.h>
+#import <UIExpectation.h>
 
 @interface UISpecExample : NSObject <UISpec> {
 	UIQuery* app;
