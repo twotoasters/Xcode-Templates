@@ -73,6 +73,9 @@
 		3F2ED2B811E22AB600CC78A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2ED0C311E2275000CC78A5 /* Foundation.framework */; };
 		3F2ED2B911E22AB900CC78A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2ED14B11E2280D00CC78A5 /* CoreGraphics.framework */; };
 		3F2ED2BA11E22ABC00CC78A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2ED15111E2282600CC78A5 /* QuartzCore.framework */; };
+		3F658CC711E364300073F19A /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F658CC611E364300073F19A /* OCMock.framework */; };
+		3F658CC811E364300073F19A /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F658CC611E364300073F19A /* OCMock.framework */; };
+		3F658CD411E3645B0073F19A /* OCMock.framework in Copy OCMock */ = {isa = PBXBuildFile; fileRef = 3F658CC611E364300073F19A /* OCMock.framework */; };
 		3F90A34911B815AA0016EE41 /* DoxygenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A34811B815AA0016EE41 /* DoxygenTest.m */; };
 		3F90A34A11B815AA0016EE41 /* DoxygenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90A34811B815AA0016EE41 /* DoxygenTest.m */; };
 		3FC0CE6510559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0CE6110559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
@@ -244,6 +247,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F658CD311E364520073F19A /* Copy OCMock */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(BUILT_PRODUCTS_DIR)";
+			dstSubfolderSpec = 0;
+			files = (
+				3F658CD411E3645B0073F19A /* OCMock.framework in Copy OCMock */,
+			);
+			name = "Copy OCMock";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3F18D6DC10B346F0000F8F3B /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = three20/src/Three20.bundle; sourceTree = "<group>"; };
 		3F18D77910B34868000F8F3B /* UISpec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISpec.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,13 +281,13 @@
 		3F2ED11111E2279900CC78A5 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = "<group>"; };
 		3F2ED14B11E2280D00CC78A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3F2ED15111E2282600CC78A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F658CC611E364300073F19A /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		3F90A34711B815AA0016EE41 /* DoxygenTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoxygenTest.h; sourceTree = "<group>"; };
 		3F90A34811B815AA0016EE41 /* DoxygenTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoxygenTest.m; sourceTree = "<group>"; };
 		3FC0CE6010559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; sourceTree = "<group>"; };
 		3FC0CE6110559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.m"; sourceTree = "<group>"; };
 		3FC0CE6210559E8E00BF2243 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
 		3FC0CE6310559E8E00BF2243 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FC0CE6810559EB100BF2243 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		3FC0D17010559F7F00BF2243 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC0D17E10559FBF00BF2243 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -291,6 +308,7 @@
 				3F2ED14011E227B600CC78A5 /* libThree20UINavigator.a in Frameworks */,
 				3F2ED14C11E2280D00CC78A5 /* CoreGraphics.framework in Frameworks */,
 				3F2ED15211E2282600CC78A5 /* QuartzCore.framework in Frameworks */,
+				3F658CC711E364300073F19A /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +328,7 @@
 				3F2ED2B811E22AB600CC78A5 /* Foundation.framework in Frameworks */,
 				3F2ED2B911E22AB900CC78A5 /* CoreGraphics.framework in Frameworks */,
 				3F2ED2BA11E22ABC00CC78A5 /* QuartzCore.framework in Frameworks */,
+				3F658CC811E364300073F19A /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +532,7 @@
 		3FC0CE9810559ECE00BF2243 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3F658CC611E364300073F19A /* OCMock.framework */,
 				3F2ED10211E2279900CC78A5 /* Three20Core.xcodeproj */,
 				3F2ED10511E2279900CC78A5 /* Three20Network.xcodeproj */,
 				3F2ED10811E2279900CC78A5 /* Three20Style.xcodeproj */,
@@ -520,7 +540,6 @@
 				3F2ED10E11E2279900CC78A5 /* Three20UICommon.xcodeproj */,
 				3F2ED11111E2279900CC78A5 /* Three20UINavigator.xcodeproj */,
 				3F2ED0CB11E2279000CC78A5 /* Three20.xcodeproj */,
-				3FC0CE6810559EB100BF2243 /* OCMock.framework */,
 				3F18D77F10B34896000F8F3B /* UISpec.xcodeproj */,
 				3F18D6DC10B346F0000F8F3B /* Three20.bundle */,
 			);
@@ -585,6 +604,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F18D77610B34868000F8F3B /* Build configuration list for PBXNativeTarget "UISpec" */;
 			buildPhases = (
+				3F658CD311E364520073F19A /* Copy OCMock */,
 				3F18D76A10B34868000F8F3B /* Resources */,
 				3F18D76C10B34868000F8F3B /* Sources */,
 				3F18D76F10B34868000F8F3B /* Frameworks */,
@@ -904,7 +924,10 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 5;
 				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -930,7 +953,10 @@
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
@@ -952,7 +978,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -978,7 +1007,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
@@ -1061,7 +1093,10 @@
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 5;
 				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";
@@ -1082,7 +1117,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/Other/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				GCC_VERSION = "";

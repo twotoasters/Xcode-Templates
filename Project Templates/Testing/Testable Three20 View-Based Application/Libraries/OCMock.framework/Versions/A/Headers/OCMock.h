@@ -1,8 +1,10 @@
 //---------------------------------------------------------------------------------------
-//  $Id: OCMock.h 21 2008-01-24 18:59:39Z erik $
+//  $Id: OCMock.h 39 2009-04-09 05:31:28Z erik $
 //  Copyright (c) 2004-2008 by Mulle Kybernetik. See License file for details.
 //---------------------------------------------------------------------------------------
 
 #import <OCMock/OCMockObject.h>
 #import <OCMock/OCMockRecorder.h>
 #import <OCMock/OCMConstraint.h>
+#import <OCMock/OCMArg.h>
+#import <OCMock/NSNotificationCenter+OCMAdditions.h>
