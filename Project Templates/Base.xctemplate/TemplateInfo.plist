@@ -9,18 +9,6 @@
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
-			<key>Description</key>
-			<string>Your new product&apos;s bundle identifier.</string>
-			<key>Identifier</key>
-			<string>bundleIdentifier</string>
-			<key>Name</key>
-			<string>Bundle Identifier</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
 			<key>Description</key>
 			<string>Your new product&apos;s name.</string>
 			<key>EmptyReplacement</key>
@@ -35,6 +23,32 @@
 			<true/>
 			<key>Type</key>
 			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Your company&apos;s bundle identifier prefix.</string>
+			<key>EmptyReplacement</key>
+			<string>com.yourcompany</string>
+			<key>Identifier</key>
+			<string>bundleIdentifierPrefix</string>
+			<key>Name</key>
+			<string>Company Identifier</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
+			<key>Description</key>
+			<string>Your new product&apos;s bundle identifier.</string>
+			<key>Identifier</key>
+			<string>bundleIdentifier</string>
+			<key>Name</key>
+			<string>Bundle Identifier</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 	</array>
 	<key>Platforms</key>
@@ -64,10 +78,10 @@
 		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
-			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-			<string>iPhone Developer</string>
 			<key>ARCHS</key>
 			<string>$(ARCHS_STANDARD_32_BIT)</string>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
 			<key>GCC_C_LANGUAGE_STANDARD</key>
 			<string>gnu99</string>
 			<key>GCC_VERSION</key>
@@ -83,12 +97,6 @@
 	<key>Targets</key>
 	<array>
 		<dict>
-			<key>Frameworks</key>
-			<array>
-				<string>UIKit</string>
-				<string>Foundation</string>
-				<string>CoreGraphics</string>
-			</array>
 			<key>BuildPhases</key>
 			<array>
 				<dict>
@@ -121,6 +129,12 @@
 					<string>YES</string>
 				</dict>
 			</dict>
+			<key>Frameworks</key>
+			<array>
+				<string>UIKit</string>
+				<string>Foundation</string>
+				<string>CoreGraphics</string>
+			</array>
 			<key>Name</key>
 			<string>___PACKAGENAME___</string>
 			<key>ProductType</key>
