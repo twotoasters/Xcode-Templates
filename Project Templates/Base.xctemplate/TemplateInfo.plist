@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.borealkiss.base</string>
+	<string>com.twotoasters.base</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Options</key>
 	<array>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
+			<key>Description</key>
+			<string>Your new product&apos;s bundle identifier.</string>
+			<key>Identifier</key>
+			<string>bundleIdentifier</string>
+			<key>Name</key>
+			<string>Bundle Identifier</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 		<dict>
 			<key>Description</key>
 			<string>Your new product&apos;s name.</string>
@@ -25,6 +37,10 @@
 			<string>text</string>
 		</dict>
 	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
 	<key>Project</key>
 	<dict>
 		<key>Configurations</key>
@@ -39,36 +55,90 @@
 				<string>NO</string>
 			</dict>
 			<key>Release</key>
-			<dict/>
+			<dict>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+			</dict>
 		</dict>
+		<key>SDK</key>
+		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_32_BIT)</string>
 			<key>GCC_C_LANGUAGE_STANDARD</key>
 			<string>gnu99</string>
+			<key>GCC_VERSION</key>
+			<string>com.apple.compilers.llvmgcc42</string>
 			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
 			<string>YES</string>
 			<key>GCC_WARN_UNUSED_VARIABLE</key>
 			<string>YES</string>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>latest_iphoneos</string>
 		</dict>
 	</dict>
 	<key>Targets</key>
 	<array>
 		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>UIKit</string>
+				<string>Foundation</string>
+				<string>CoreGraphics</string>
+			</array>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+			</array>
 			<key>Configurations</key>
 			<dict>
 				<key>Debug</key>
-				<dict/>
+				<dict>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>GCC_DYNAMIC_NO_PIC</key>
+					<string>NO</string>
+				</dict>
 				<key>Release</key>
-				<dict/>
+				<dict>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>VALIDATE_PRODUCT</key>
+					<string>YES</string>
+				</dict>
 			</dict>
 			<key>Name</key>
 			<string>___PACKAGENAME___</string>
+			<key>ProductType</key>
+			<string>com.apple.product-type.application</string>
 			<key>SharedSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>___PACKAGENAME___/Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>___PACKAGENAME___/Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
 			</dict>
 		</dict>
 	</array>

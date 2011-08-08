@@ -4,22 +4,12 @@
 <dict>
 	<key>Ancestors</key>
 	<array>
-		<string>com.borealkiss.cocoaTouchApplication</string>
+		<string>com.twotoasters.base</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
 	<key>Definitions</key>
 	<dict>
-		<key>Classes/AppDelegate/AppDelegate.m</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Classes</string>
-				<string>AppDelegate</string>
-			</array>
-			<key>Path</key>
-			<string>Classes/AppDelegate/AppDelegate.m</string>
-		</dict>
 		<key>Classes/AppDelegate/AppDelegate.h</key>
 		<dict>
 			<key>Group</key>
@@ -31,6 +21,49 @@
 			<string>Classes/AppDelegate/AppDelegate.h</string>
 			<key>TargetIndices</key>
 			<array/>
+		</dict>
+		<key>Classes/AppDelegate/AppDelegate.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>AppDelegate</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/AppDelegate/AppDelegate.m</string>
+		</dict>
+		<key>Classes/TestVC/Resources/TestVC.xib</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/TestVC/Resources/TestVC.xib</string>
+		</dict>
+		<key>Classes/TestVC/TestVC.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/TestVC/TestVC.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/TestVC/TestVC.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>TestVC</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/TestVC/TestVC.m</string>
 		</dict>
 		<key>Info.plist</key>
 		<dict>
@@ -57,44 +90,11 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Classes/TestVC/TestVC.h</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Classes</string>
-				<string>TestVC</string>
-			</array>
-			<key>Path</key>
-			<string>Classes/TestVC/TestVC.h</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Classes/TestVC/TestVC.m</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Classes</string>
-				<string>TestVC</string>
-			</array>
-			<key>Path</key>
-			<string>Classes/TestVC/TestVC.m</string>
-		</dict>
-		<key>Classes/TestVC/Resources/TestVC.xib</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Classes</string>
-				<string>TestVC</string>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>Classes/TestVC/Resources/TestVC.xib</string>
-		</dict>
 	</dict>
 	<key>Description</key>
-	<string>This template provides a starting point for any application. It provides just an application delegate and a window.</string>
+	<string>This template provides a starting point for any sexy application.</string>
 	<key>Identifier</key>
-	<string>com.borealkiss.windowBasedApplication</string>
+	<string>com.twotoasters.SXYApplication</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
